@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="chart.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div class="city-name-input">
+        <input type="text" placeholder="Type city name..." id="cityName">
+        <button type="button" class="btn btn-outline-primary" onclick="loadChart()">Get Weather Forecast</button>
+    </div>
+    <h1> Welcome to the 5-day weather forecast! </h1>
+
+    <div id="chart"></div>
+    <div id='chart2'></div>
+</body>
+
+</html>

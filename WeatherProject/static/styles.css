@@ -1,0 +1,20 @@
+.city-name-input {
+    width: 30%;
+    margin: 5px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+body {
+    background-image: url("http://foreneset.no/weather2/img/background-clouds.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    color: #DC6A56;
+    font-size: 50px;
+    font-family: Candara;
+    padding-top: 20px;
+    text-align: center;
+}
